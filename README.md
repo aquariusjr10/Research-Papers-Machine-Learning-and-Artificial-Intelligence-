@@ -1,94 +1,33 @@
 # 📚 Machine Learning Papers Re-Implemented
 
-# 
 
-# This repository is a personal learning project where I re-implement landmark machine learning research papers from scratch.
+This repo is basically me going down the rabbit hole of famous machine learning papers 🐇📄.
+Instead of just reading them, I’m re-implementing everything myself — experiments, code, and (hopefully) reproducing some results.
 
-# The goal is to deepen my understanding of both foundational and cutting-edge concepts in machine learning, natural language processing, and computer vision.
+Expected Outcomes:
 
-# 
+✅ learning by doing
 
-# 📝 Papers Included
+✅ building intuition
 
-# 1\. Attention Is All You Need (2017)
+✅ having fun breaking/rebuilding cool ML ideas
 
-# 
+#🔬 Papers I’m tackling
 
-# Introduced the Transformer architecture, which replaced recurrent and convolutional models for sequence transduction.
+Attention is All You Need (2017)
+Transformers before they were cool. Multi-head attention, positional encodings, the whole deal.
 
-# 
+Handwritten Digit Recognition with a Back-Propagation Network (1989)
+Old-school LeCun vibes 🕹️. The OG neural net that paved the way for MNIST benchmarks.
 
-# Key Contributions: Scaled Dot-Product Attention, Multi-Head Attention, Positional Encoding.
+An Image is Worth 16x16 Words (ViT, 2021)
+Cut images into patches → treat them like tokens → run a Transformer → magic ✨.
 
-# 
+LoRA: Low-Rank Adaptation of LLMs (2021)
+Fine-tune giant models without setting your GPU on fire 🔥. Low-rank matrices save the day.
 
-# 2\. Handwritten Digit Recognition with a Back-Propagation Network (1989)
-
-# 
-
-# Early application of neural networks for digit recognition (precursor to MNIST benchmarks).
-
-# 
-
-# Key Contributions: Demonstrated backpropagation’s potential in supervised learning tasks.
-
-# 
-
-# 3\. An Image is Worth 16x16 Words: Transformers for Image Recognition at Scale (ViT, 2021)
-
-# 
-
-# Proposed Vision Transformers (ViTs) for image classification.
-
-# 
-
-# Key Contributions: Split images into patches, treated as tokens, processed with Transformer architecture.
-
-# 
-
-# 4\. LoRA: Low-Rank Adaptation of Large Language Models (2021)
-
-# 
-
-# Lightweight fine-tuning method for large models.
-
-# 
-
-# Key Contributions: Adaptation via low-rank decomposition, reducing memory and compute costs.
-
-# 
-
-# 5\. Retrieval-Augmented Generation for Knowledge-Intensive NLP Tasks (RAG, 2021)
-
-# 
-
-# Combined retrieval with generation for knowledge-heavy tasks.
-
-# 
-
-# Key Contributions: Dense passage retrieval + generative models for improved factuality and grounding.
-
-# 
-
-# 🎯 Objectives
-
-# 
-
-# Reproduce experiments and results from each paper.
-
-# 
-
-# Compare performance against reported baselines.
-
-# 
-
-# Build a stronger intuition for architecture design choices.
-
-# 
-
-# Document implementation details and challenges for each paper.
-
-# 
+RAG: Retrieval-Augmented Generation (2021)
+What if your model could Google stuff before answering? That’s basically RAG.
 
 # 📂 Repository Structure
 
@@ -116,8 +55,8 @@
 
 
 
-⚙️ Requirements
 
+#⚙️ Requirements
 
 
 Python 3.9+
@@ -142,49 +81,28 @@ pip install -r requirements.txt
 
 
 
-🚀 Usage
-
+#🚀 Usage
 
 
 Each subdirectory contains:
 
-
-
 Paper-specific implementation (.ipynb or .py)
-
-
 
 Documentation on methodology
 
-
-
 Experiments and results
-
-
 
 Run any notebook directly to reproduce experiments.
 
-
-
-📌 Notes
-
-
-
+#📌 Notes
 This project is for self-learning and educational purposes.
 
-
-
 The implementations may not be fully optimized but are focused on clarity and correctness.
-
-
 
 Contributions, discussions, and suggestions are always welcome.
 
 
-
-📖 References
-
-
+#📖 References
 
 Vaswani et al., Attention Is All You Need (2017)
 
