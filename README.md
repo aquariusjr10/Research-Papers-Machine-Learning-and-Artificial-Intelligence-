@@ -12,7 +12,7 @@ Expected Outcomes:
 
 ✅ having fun breaking/rebuilding cool ML ideas
 
-#🔬 Papers I’m tackling
+# 🔬 Papers I’m tackling
 
 Attention is All You Need (2017)
 Transformers before they were cool. Multi-head attention, positional encodings, the whole deal.
@@ -56,69 +56,31 @@ What if your model could Google stuff before answering? That’s basically RAG.
 
 
 
-#⚙️ Requirements
+# ⚙️ Requirements
+- Python 3.9+
+- PyTorch / TensorFlow (depending on the experiment)
+- Hugging Face Transformers (for LLMs and RAG)
+- NumPy, Pandas, Matplotlib, Scikit-learn
 
 
-Python 3.9+
-
-
-
-PyTorch / TensorFlow (depending on the experiment)
-
-
-
-Hugging Face Transformers (for LLMs and RAG)
-
-
-
-NumPy, Pandas, Matplotlib, Scikit-learn
-
-
-
-You can install the dependencies with:
-
-pip install -r requirements.txt
-
-
-
-#🚀 Usage
-
-
+# 🚀 Usage
 Each subdirectory contains:
 
-Paper-specific implementation (.ipynb or .py)
+-Paper-specific implementation (.ipynb or .py)
+-Documentation on methodology
+-Experiments and results
+-Run any notebook directly to reproduce experiments.
 
-Documentation on methodology
-
-Experiments and results
-
-Run any notebook directly to reproduce experiments.
-
-#📌 Notes
+# 📌 Notes
 This project is for self-learning and educational purposes.
-
 The implementations may not be fully optimized but are focused on clarity and correctness.
-
 Contributions, discussions, and suggestions are always welcome.
 
+# 📖 References
 
-#📖 References
-
-Vaswani et al., Attention Is All You Need (2017)
-
-
-
-LeCun et al., Handwritten Digit Recognition with a Back-Propagation Network (1989)
-
-
-
-Dosovitskiy et al., An Image is Worth 16x16 Words: Transformers for Image Recognition at Scale (2021)
-
-
-
-Hu et al., LoRA: Low-Rank Adaptation of Large Language Models (2021)
-
-
-
-Lewis et al., Retrieval-Augmented Generation for Knowledge-Intensive NLP Tasks (2021)
+- Vaswani et al., Attention Is All You Need (2017)
+- LeCun et al., Handwritten Digit Recognition with a Back-Propagation Network (1989)
+- Dosovitskiy et al., An Image is Worth 16x16 Words: Transformers for Image Recognition at Scale (2021)
+- Hu et al., LoRA: Low-Rank Adaptation of Large Language Models (2021)
+- Lewis et al., Retrieval-Augmented Generation for Knowledge-Intensive NLP Tasks (2021)
 
